@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>JavaScript Engine Presentation</title>
+</head>
+<body>
+  <div class="presentation">
+    <div class="slide" style="background-color: rgba(0, 0, 0, 0.616);">
+      <h1>Hii, I'm JavaScript Engine</h1>
+      <img src="./images/icons8-javascript-250.png" alt="JavaScript Engine">
+    </div>
+
+    <div class="slide" style="background-color: rgba(0, 0, 0, 0.616);">
+        <h1>Today, I'll show you how my Engines Work's in your machines!</h1>
+        <img src="./images/JS_engine.png" alt="How JavaScript Engines Work">
+      </div>
+      <div class="slide" style="background-color:  rgba(0, 0, 0, 0.616);">
+        <h1>I'm having area's for Call Stack, Callback Queue & Web API</h1>
+        <p style="font-size: large;">Where your code, functions and Objects are loaded and get executed.</p>
+      </div>
+      <div class="slide">
+        <h1>Here is a graphical look of Call Stack, Callback Queue & Web API</h1>
+        <img src="./images/slide1.png" alt="How JavaScript Engines Work" style="width: fit-content; height: 500px;">
+        <p style="font-size: large;">The little arrow circle is known as eventloop. It adds the events present in 
+        Callback Queue to the Call Stack for execution</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide2.png" alt="" style="width: fit-content; height: 200px;">
+        <p style="font-size: large;">When you run a program like console.log in me. Like as shown in the above code.</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide3.png" alt="" style="width: fit-content; height: 500px;">
+        <p style="font-size: large;">It will come to stack and excute the code</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide4.png" alt="" style="width: fit-content; height: 500px;">
+        <p style="font-size: large;">After execution of code the stack will be pop up all the data present in stack</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide5.png" alt="" style="width: fit-content; height: 500px;">
+        <p style="font-size: large;">If you try to run call back in me like above code. </p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide6.png" alt="" style="width: fit-content; height: 500px;">
+        <p style="font-size: large;">First function call will be loaded into the stack.</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide7.png" alt="" style="width: fit-content; height: 500px;">
+        <p style="font-size: large;">It follows the other call backs present in other functions as shown above</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide8.png" alt="" style="width: fit-content; height: 500px;">
+        <p style="font-size: large;">After execution of code the stack will be pop up all the data present in stack</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide7.png" alt="" style="width: fit-content; height: 500px;">
+      </div>
+      <div class="slide">
+        <img src="./images/slide9.png" alt="">
+        <p style="font-size: large;">The Call stack become empty</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide10.png" alt="">
+        <p style="font-size: large;">If you want to mess with the call stack, try run the above code</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide11.png" alt="">
+        <p style="font-size: large;">It will keep-on calling the same function untill it reach the max storage</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide12.png" alt="">
+        <p style="font-size: large;"></p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide13.png" alt="">
+        <p style="font-size: large;">After the max size is over it will give you a error, It can't show the error</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide14.png" alt="">
+        <p style="font-size: large;">If run the same code in a browser console, It will end up like this.</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide15.png" alt="">
+        <p style="font-size: large;">When you try to do some asynschronous functions or setTimeout like above</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide16.png" alt="">
+        <p style="font-size: large;">When there is eventlistener it will goes to the Web API</p>
+      </div>
+      <div class="slide">
+        <img src="./images/slide17.png" alt="">
+        <p style="font-size: large;">Like this.</p>
+      </div>
+      <div class="slide">
+          <img src="./images/slide19.png" alt="">
+          <p style="font-size: large;">When ever you click the Click me! button, it will add a event to print console.log 
+            to Callback Queue</p>
+        </div>
+      <div class="slide">
+          <img src="./images/slide20.png" alt="">
+          <p style="font-size: large;">When the Call Stack is empty it push a event to it and it will execute after some
+        specific time</p>
+        </div>
+      <div class="slide">
+          <img src="./images/slide21.png" alt="">
+          <p style="font-size: large;">When there is a setTimeout function is there it will also go to the Web API</p>
+        </div>
+      <div class="slide">
+          <img src="./images/slide22.png" alt="">
+          <p style="font-size: large;">Where the time will run and in the mean time other code will execute in Call Stack
+        </p>
+        </div>
+        <div class="slide">
+          <img src="./images/slide23.png" alt="">
+          <p style="font-size: large;">After setTimeout time done, it will automatically added to the Callback Queue</p>
+        </div>
+        <div class="slide">
+          <img src="./images/slide24.png" alt="">
+          <p style="font-size: large;">When the Call Stack is empty, it will push the code to execute</p>
+        </div>
+        <div class="slide">
+            <img src="./images/code_runs.jpg" alt="">
+          <p style="font-size: large;">This is the way, I execute everyday in you machines!</p>
+        </div>
+        <div class="slide">
+          <img src="./images/thankyou.jpg" alt="">
+          <h3 style="font-family: 'Lucida Sans';">Happy Coding</h3>
+        </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>
